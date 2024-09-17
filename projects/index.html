@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter Switcher</title>
+    <style>
+        .letter {
+            display: none;
+        }
+        .active {
+            display: block;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 按钮 -->
+    <button onclick="switchLetter('a')">Show A</button>
+    <button onclick="switchLetter('b')">Show B</button>
+
+    <!-- 显示的字母 -->
+    <div id="letterA" class="letter active">A</div>
+    <div id="letterB" class="letter">B</div>
+
+    <script>
+        // 切换显示的字母
+        function switchLetter(letter) {
+            document.getElementById('letterA').classList.remove('active');
+            document.getElementById('letterB').classList.remove('active');
+            
+            if (letter === 'a') {
+                document.getElementById('letterA').classList.add('active');
+            } else if (letter === 'b') {
+                document.getElementById('letterB').classList.add('active');
+            }
+        }
+    </script>
+
+</body>
+</html>
