@@ -1,0 +1,14 @@
+.wr > p {
+    color:aqua;
+
+}
+.wr > li p {
+    color: blue;
+
+}
+h1:hover{
+    color: blue;
+}
+.wra:hover > a{
+    color: aqua;
+}
