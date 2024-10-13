@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2073 384">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: STLiti, STLiti;
+        font-size: 235.44px;
+      }
+    </style>
+  </defs>
+  <g id="_图层_1" data-name="图层 1">
+    <rect class="cls-1" width="1920" height="384"/>
+  </g>
+  <g id="_图层_2" data-name="图层 2">
+    <text class="cls-2" transform="translate(84 264.6)"><tspan x="0" y="0">Houses or Museums?</tspan></text>
+  </g>
+</svg>

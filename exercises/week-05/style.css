@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+html,body {
+height: 100%;
+}
+
+body {
+font-family: "Roboto", sans-serif;
+min-height: 100vh;
+background-color: rgb(255, 255, 255);
+}
+
+header,
+footer,
+main {padding: 20px;
+    border: 1px solid black;
+    color:#141414
+}
+
+header{
+    height: 20vh;
+}
+main{
+    height: 60vh;
+}
+footer{
+    height: 20vh;
+}   
+
+
+.invite-container{
+    padding: 20px;
+}
+.section{
+    padding-bottom: 30px;
+}
+.light{
+    color:lightgrey
+}
+.dark{
+    font-weight: 600;
+}
+.small{
+    font-size: 12px;
+}
+.big{
+    font-size: 36px;
+}
