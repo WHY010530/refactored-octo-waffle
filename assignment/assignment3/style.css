@@ -6,9 +6,11 @@ body{
 }
 
 .img {
+    border-radius: 10px;
     width: 24%;
     display: inline-block;
     position: relative;
+    border-right: 10px;
     /* height: auto;  */
 }
 
