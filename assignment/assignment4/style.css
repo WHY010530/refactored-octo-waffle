@@ -1,0 +1,65 @@
+body{
+    font-family: "Lora", serif;
+    background-color: black;
+    color: white;
+    margin: 5% 15%;
+}
+
+.img {
+    border-radius: 10px;
+    width: 27%;
+    display: inline-block;
+    position: relative;
+    border-right: 10px;
+    /* height: auto;  */
+}
+
+.title p, .name p {
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px 20px 50px 20px;
+    font-style: italic;
+}
+
+
+.name{
+    margin-left: 3%;
+    margin-top: 0;
+    width: 65%;
+    vertical-align: top;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+    height: auto;
+    /* border-style: dotted;
+    border-width: 0 0 2px 0 ;
+    border-color:rgb(138, 138, 138) ; */
+}
+
+.P1 .p2 .p3{
+    width: 100;
+    padding: 1%;
+    position: relative;
+    vertical-align: top;
+    height: auto;
+}
+
+
+
+
+
+.BT1{
+    font-size: 25px;
+}
+.BT2{
+    font-size: 15px;
+    line-height: 150%;
+}
+
