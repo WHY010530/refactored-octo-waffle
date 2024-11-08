@@ -1,65 +1,61 @@
-body{
+body {
     font-family: "Lora", serif;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     margin: 5% 15%;
 }
 
-.img {
-    border-radius: 10px;
-    width: 27%;
-    display: inline-block;
-    position: relative;
-    border-right: 10px;
-    /* height: auto;  */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr; /* 两列布局：自动宽度用于图片，剩余空间用于文本 */
+    gap: 20px; /* 列之间的间距 */
+    align-items: start; /* 顶部对齐 */
+    background-color: rgb(138, 223, 223);
+    border-radius: 10px; ;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
 }
 
-.title p, .name p {
-    margin: 0;
-    padding: 0;
+.img img{
+    flex-shrink: 0; /* Prevents the image from shrinking */
+    margin: 10px;
+    border-radius: 10px; ;
 }
 
-.title{
+.title {
     font-weight: 400;
-    font-style: normal;
     font-size: 50px;
     text-align: center;
-    margin: 20px 20px 50px 20px;
+    margin: 20px;
     font-style: italic;
 }
 
 
-.name{
-    margin-left: 3%;
-    margin-top: 0;
-    width: 65%;
-    vertical-align: top;
+.name {
     font-size: 20px;
-    line-height: 30px;
+    line-height: 24px; /* 更紧凑的行高 */
     font-style: italic;
-    height: auto;
-    /* border-style: dotted;
-    border-width: 0 0 2px 0 ;
-    border-color:rgb(138, 138, 138) ; */
+    margin: 0;
+    width: 90%; /* 使文本占满所在列 */
 }
 
-.P1 .p2 .p3{
-    width: 100;
-    padding: 1%;
-    position: relative;
-    vertical-align: top;
-    height: auto;
+.container2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-
-
-
+.P {
+    font-size: 20px;
+    line-height: 24px;
+    font-style: italic;
+    background-color: rgb(138, 223, 223); /* 背景颜色应正确显示 */
+    margin: 0%; /* 添加边距以更好地分隔内容 */
+    padding: 2%;
+    border-radius: 10px; ;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
 
 .BT1{
-    font-size: 25px;
+    font-size: 35px;
+    color: white;
 }
-.BT2{
-    font-size: 15px;
-    line-height: 150%;
-}
-
