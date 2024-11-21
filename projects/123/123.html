@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片排版示例</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            gap: -20px; /* 控制图片之间的重叠 */
+            position: relative;
+        }
+        .card {
+            width: 100px;
+            height: 150px;
+            background-color: #b0c4de;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .card.left {
+            transform: rotateY(15deg) translateX(-10px); /* 左侧图片的角度调整 */
+            z-index: 1; /* 确保左侧图片在较低层 */
+        }
+        .card.right {
+            transform: rotateY(-15deg) translateX(10px); /* 右侧图片的角度调整 */
+            z-index: 1; /* 确保右侧图片在较低层 */
+        }
+        .card.center {
+            z-index: 2; /* 确保中间图片在最上层 */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card left"></div>
+        <div class="card left"></div>
+        <div class="card center"></div> <!-- 中间正视角的卡片 -->
+        <div class="card right"></div>
+        <div class="card right"></div>
+    </div>
+</body>
+</html>
