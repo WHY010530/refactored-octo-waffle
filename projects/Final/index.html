@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>GALAXY</title>
+		<link rel="shortcut icon" href="GALAXY.ICO">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<style>
+			.demos {
+				display: flex;
+				gap: 20px;
+				padding: 20px;
+			}
+			
+			.demos select {
+				padding: 0 30px 0 15px;
+				height: 40px;
+				line-height: 40px;
+				border: 1px solid #dcdfe6;
+				border-radius: 4px;
+				background-color: #fff;
+				color: #606266;
+				font-size: 14px;
+				cursor: pointer;
+				transition: all .2s;
+				min-width: 220px;
+				appearance: none;
+				background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23606266'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+				background-repeat: no-repeat;
+				background-position: right 8px center;
+				background-size: 16px;
+			}
+
+			.demos select:hover {
+				border-color: #c0c4cc;
+			}
+
+			.demos select:focus {
+				outline: none;
+				border-color: #409eff;
+			}
+
+			.demos select option {
+				padding: 12px 20px;
+				font-size: 14px;
+				color: #606266;
+				min-height: 40px;
+				line-height: 40px;
+				background-color: #fff;
+				border: none;
+				cursor: pointer;
+				position: relative;
+			}
+
+			.demos select option:hover,
+			.demos select option:focus,
+			.demos select option:checked,
+			.demos select option[selected] {
+				background-color: #409eff !important;
+				color: #fff !important;
+			}
+
+			.demos select option[value=""] {
+				color: #909399;
+			}
+
+			@media (prefers-color-scheme: dark) {
+				.demos select {
+					background-color: #1f2937;
+					border-color: #4b5563;
+					color: #e5e7eb;
+				}
+
+				.demos select option {
+					background-color: #1f2937;
+					color: #e5e7eb;
+				}
+
+				.demos select option:hover,
+				.demos select option:focus,
+				.demos select option:checked,
+				.demos select option[selected] {
+					background-color: #409eff !important;
+					color: #fff !important;
+				}
+
+				.demos select option[value=""] {
+					color: #909399;
+				}
+			}
+		</style>
+		<script>document.documentElement.className="js";</script>
+	</head>
+	<body class="demo-7 loading" >
+		<main>
+			<nav class="demos">
+				<select>
+					<option value="">Filter by Structure</option>
+					<option value="Spiral Galaxies (S)">Spiral Galaxies (S)</option>
+					<option value="Barred Spiral Galaxies (SB)">Barred Spiral Galaxies (SB)</option>
+					<option value="Interacting/Merging Galaxies">Interacting/Merging Galaxies</option>
+					<option value="Lenticular Galaxies (S0)">Lenticular Galaxies (S0) </option>
+					<option value="Irregular Galaxies (Irr)">Irregular Galaxies (Irr)</option>
+					<option value="Elliptical Galaxies (E)">Elliptical Galaxies (E)</option>
+				</select>
+				<select>
+					<option value="">Filter by Cluster</option>
+					<option value="Local Group">Local Group</option>
+					<option value="Fornax Cluster">Fornax Cluster </option>
+					<option value="Sculptor Group">Sculptor Group</option>
+					<option value="Coma I Cluster">Coma I Cluster </option>
+					<option value="M81 Group">M81 Group</option>
+					<option value="Ursa Major Cluster">Ursa Major Cluster</option>
+					<option value="Dorado Group">Dorado Group</option>
+					<option value="Canes Venatici Group">Canes Venatici Group</option>
+					<option value="Field Galaxy">Field Galaxy </option>
+					<option value="Centaurus Group">Centaurus Group</option>
+					<option value="Virgo Cluster">Virgo Cluster</option>
+					<option value="Hercules Galaxy Cluster">Hercules Galaxy Cluster</option>
+					<option value="Perseus Cluster">Perseus Cluster</option>
+					<option value="Antlia Cluster">Antlia Cluster</option>
+				</select>
+				<select>
+					<option value="">Filter by Activity Level</option>
+					<option value="Quiescent Galaxy">Quiescent Galaxy </option>
+					<option value="Active Galaxy">Active Galaxy</option>
+					<option value="Star-forming Galaxy">Star-forming Galaxy </option>
+					<option value="Starburst Galaxy">Starburst Galaxy </option>
+					<option value="LINER">LINER</option>
+				</select>
+			</nav>
+			<div class="meta">
+				<h2 class="meta__title">GALAXY</h2>
+			</div>
+			<div class="content">
+				<div class="content__img">
+					<div class="content__img-inner" style="background-image:url(images/1.jpg)"></div>
+				</div>
+				<div class="content__img">
+					<div class="content__img-inner" style="background-image:url(images/2.jpg)"></div>
+				</div>
+				<div class="content__img">
+					<div class="content__img-inner" style="background-image:url(images/3.jpg)"></div>
+				</div>
+				<div class="content__img">
+					<div class="content__img-inner" style="background-image:url(images/4.jpg)"></div>
+				</div>
+				<div class="content__img">
+					<div class="content__img-inner" style="background-image:url(images/5.jpg)"></div>
+				</div>
+				<div class="content__img">
+					<div class="content__img-inner" style="background-image:url(images/6.jpg)"></div>
+				</div>
+				<div class="content__img">
+					<div class="content__img-inner" style="background-image:url(images/7.jpg)"></div>
+				</div>
+				<div class="content__img">
+					<div class="content__img-inner" style="background-image:url(images/8.jpg)"></div>
+				</div>
+				<div class="content__img">
+					<div class="content__img-inner" style="background-image:url(images/9.jpg)"></div>
+				</div>
+				<div class="content__img">
+					<div class="content__img-inner" style="background-image:url(images/10.jpg)"></div>
+				</div>
+			</div><!--/content-->
+		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/gsap.min.js"></script>
+		<script type="module" src="js/demo7/index.js"></script>
+	</body>
+</html>

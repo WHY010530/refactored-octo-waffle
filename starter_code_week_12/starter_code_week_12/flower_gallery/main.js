@@ -30,3 +30,28 @@ const flowers = [
         image: "https://www.jacksonandperkins.com/images/xxl/v1780.jpg"
     }
 ];
+
+// 1. grab the point of insertion, ul
+const ul = document.querySelector('ul');
+console.log(ul);
+
+// 2. loop through the flowers array of objects
+flowers.forEach(flower => {
+    console.log(flower)
+    // 3. create a new li element for each flower
+    const li = document.createElement('li');
+    li.classList.add('card');
+    const p = document.createElement('p');
+    // 4. create a new img element for each flower
+    const img = document.createElement('img');
+    // 5. set the src attribute of the img element to the image property of the flower object
+    img.setAttribute('src', flower.image);
+    // add text
+    p.textContent = flower.name;
+
+    // 6. append the img element to the li element
+    li.appendChild(img);
+    li.appendChild(p);
+    // 7. append the listItem to the ul
+    ul.appendChild(li);
+})

@@ -1,0 +1,12 @@
+#search-filter {
+    margin-bottom: 20px;
+  }
+  
+  #search-box, #filter-category {
+    margin-right: 10px;
+  }
+  
+  #item-list li {
+    display: none; /* 初始状态为隐藏 */
+  }
+  
