@@ -8,23 +8,26 @@
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
 		<style>
 			.demos {
+				box-sizing: border-box;
+				width: 600px;
 				display: flex;
-				gap: 20px;
 				padding: 20px;
+				gap: 5%;
 			}
 			
 			.demos select {
+				width: 30%;
+				box-sizing: border-box;
 				padding: 0 30px 0 15px;
 				height: 40px;
 				line-height: 40px;
-				border: 1px solid #dcdfe6;
+				border: 1px solid #000000;
 				border-radius: 4px;
-				background-color: #fff;
-				color: #606266;
+				background-color: #000000;
+				color: #ffffff;
 				font-size: 14px;
 				cursor: pointer;
 				transition: all .2s;
-				min-width: 220px;
 				appearance: none;
 				background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23606266'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
 				background-repeat: no-repeat;
@@ -33,21 +36,21 @@
 			}
 
 			.demos select:hover {
-				border-color: #c0c4cc;
+				border-color: #000000;
 			}
 
 			.demos select:focus {
 				outline: none;
-				border-color: #409eff;
+				border-color: #000000;
 			}
 
 			.demos select option {
-				padding: 12px 20px;
+				padding: 20px 20px;
 				font-size: 14px;
-				color: #606266;
-				min-height: 40px;
-				line-height: 40px;
-				background-color: #fff;
+				color: #ffffff;
+				height: 60px;
+				line-height: 60px;
+				background-color: #000000;
 				border: none;
 				cursor: pointer;
 				position: relative;
@@ -62,7 +65,7 @@
 			}
 
 			.demos select option[value=""] {
-				color: #909399;
+				color: #ffffff;
 			}
 
 			@media (prefers-color-scheme: dark) {
